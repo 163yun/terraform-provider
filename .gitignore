@@ -2,3 +2,4 @@
 bin/
 terraform.tfstate
 terraform.tfstate.backup
+tf*.log
