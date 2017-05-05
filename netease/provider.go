@@ -14,13 +14,13 @@ func Provider() terraform.ResourceProvider {
 			"app_key": &schema.Schema{
 				Type:        schema.TypeString,
 				Required:    true,
-				DefaultFunc: schema.EnvDefaultFunc("163YUN_APP_KEY", nil),
+				DefaultFunc: schema.EnvDefaultFunc("NETEASE_ACCESS_KEY", nil),
 				Description: "App key of 163yun",
 			},
 			"app_secret": &schema.Schema{
 				Type:        schema.TypeString,
 				Required:    true,
-				DefaultFunc: schema.EnvDefaultFunc("163YUN_APP_SECRET", nil),
+				DefaultFunc: schema.EnvDefaultFunc("NETEASE_ACCESS_SECRET", nil),
 				Description: "App secret of 163yun",
 			},
 		},

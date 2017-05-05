@@ -1,7 +1,7 @@
 package netease
 
 import (
-	"github.com/bingohuang/cloudcomb-go-sdk"
+	"github.com/bingohuang/163yun-go-sdk/cloudcomb"
 )
 
 type Config struct {

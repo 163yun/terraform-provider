@@ -2,7 +2,7 @@ package netease
 
 import (
 	"fmt"
-	"github.com/bingohuang/cloudcomb-go-sdk"
+	"github.com/bingohuang/163yun-go-sdk/cloudcomb"
 	"github.com/hashicorp/terraform/helper/schema"
 	"log"
 )
