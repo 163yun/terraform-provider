@@ -1,3 +1,9 @@
+
+## 1.0.2(May 11, 2017)
+
+  * **New Resource:** `netease_namespace`
+
+
 ## 1.0.1(May 2, 2017)
 
   * **New Resource:** `netease_secret_key`

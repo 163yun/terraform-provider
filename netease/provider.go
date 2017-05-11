@@ -27,6 +27,7 @@ func Provider() terraform.ResourceProvider {
 
 		ResourcesMap: map[string]*schema.Resource{
 			"netease_secret_key": resourceNeteaseSecretKey(),
+			"netease_namespace":  resourceNeteaseNamespace(),
 		},
 
 		ConfigureFunc: providerConfigure,
